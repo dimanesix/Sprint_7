@@ -5,7 +5,7 @@ from helpers import Helpers
 import test_data
 
 
-class CouriersApi:
+class CourierApi:
 
     def create_courier(self, login, password, first_name):
         data = {
@@ -35,7 +35,7 @@ class CouriersApi:
 
 #print(CouriersApi().create_courier('fgfgfg', 'qazxswea', 'wqasasaas').status_code)
 
-courier = CouriersApi()
+courier = CourierApi()
 response = courier.create_courier('sadasdagh', 'dfgdfg', 'dsdsad')
 print(response.text)
 response = courier.login_courier('sadasdagh', 'dfgdfg')

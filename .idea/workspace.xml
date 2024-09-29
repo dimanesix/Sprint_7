@@ -5,21 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1128b959-b448-425c-b64b-75816e1a8c85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/courier.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/orders.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_create_courier.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_create_order.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_get_orders.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_login_courier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/courier.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/courier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/orders.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/orders.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_create_courier.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_create_courier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_create_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_create_order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_get_orders.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_get_orders.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_login_courier.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_login_courier.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +51,10 @@
     "Python tests.Python tests for test_create_courier.TestCourier.test_cannot_create_courier_without_login.executor": "Run",
     "Python tests.Python tests for test_create_courier.TestCourier.test_cannot_create_courier_without_password.executor": "Run",
     "Python tests.Python tests for test_create_courier.TestCourier.test_cannot_create_identical_couriers.executor": "Run",
+    "Python tests.Python tests for test_create_order.TestCreateOrder.test_can_create_courier.executor": "Run",
+    "Python tests.Python tests for test_create_order.TestCreateOrder.test_can_create_order.executor": "Run",
+    "Python tests.Python tests for test_get_orders.TestGetOrder.test_can_get_order.executor": "Run",
+    "Python tests.Python tests for test_get_orders.TestGetOrder.test_can_get_orders.executor": "Run",
     "Python tests.Python tests in Sprint_7.executor": "Run",
     "Python.courier.executor": "Run",
     "Python.helpers.executor": "Run",
@@ -64,8 +62,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests in Sprint_7">
-    <configuration name="Python tests for test_create_courier.TestCourier.test_can_create_courier" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_get_orders.TestGetOrder.test_can_get_orders">
+    <configuration name="Python tests for test_create_order.TestCreateOrder.test_can_create_courier" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Sprint_7" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,11 +74,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_create_courier.TestCourier.test_can_create_courier&quot;" />
+      <option name="_new_target" value="&quot;test_create_order.TestCreateOrder.test_can_create_courier&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_create_courier.TestCourier.test_can_create_courier_without_first_name" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_create_order.TestCreateOrder.test_can_create_order" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Sprint_7" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,11 +89,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_create_courier.TestCourier.test_can_create_courier_without_first_name&quot;" />
+      <option name="_new_target" value="&quot;test_create_order.TestCreateOrder.test_can_create_order&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_create_courier.TestCourier.test_cannot_create_courier_with_identical_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_get_orders.TestGetOrder.test_can_get_order" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Sprint_7" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,11 +104,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_create_courier.TestCourier.test_cannot_create_courier_with_identical_login&quot;" />
+      <option name="_new_target" value="&quot;test_get_orders.TestGetOrder.test_can_get_order&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_create_courier.TestCourier.test_cannot_create_courier_without_password" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_get_orders.TestGetOrder.test_can_get_orders" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Sprint_7" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,7 +119,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_create_courier.TestCourier.test_cannot_create_courier_without_password&quot;" />
+      <option name="_new_target" value="&quot;test_get_orders.TestGetOrder.test_can_get_orders&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -142,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_get_orders.TestGetOrder.test_can_get_orders" />
         <item itemvalue="Python tests.Python tests in Sprint_7" />
-        <item itemvalue="Python tests.Python tests for test_create_courier.TestCourier.test_can_create_courier" />
-        <item itemvalue="Python tests.Python tests for test_create_courier.TestCourier.test_can_create_courier_without_first_name" />
-        <item itemvalue="Python tests.Python tests for test_create_courier.TestCourier.test_cannot_create_courier_with_identical_login" />
-        <item itemvalue="Python tests.Python tests for test_create_courier.TestCourier.test_cannot_create_courier_without_password" />
+        <item itemvalue="Python tests.Python tests for test_get_orders.TestGetOrder.test_can_get_order" />
+        <item itemvalue="Python tests.Python tests for test_create_order.TestCreateOrder.test_can_create_order" />
+        <item itemvalue="Python tests.Python tests for test_create_order.TestCreateOrder.test_can_create_courier" />
       </list>
     </recent_temporary>
   </component>

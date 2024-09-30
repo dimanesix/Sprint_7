@@ -35,10 +35,3 @@ class Helpers:
         return {
             "courier": login_pass,
             "response": response}
-        # "code": response.status_code,
-        # "text": response.text}
-
-
-# check how to generate
-help = Helpers()
-print(help.register_new_courier_and_return_login_password_response())

@@ -12,7 +12,6 @@ class TestCreateOrder:
             data = test_data.TEST_ORDER
             data["color"] = test_color
             response = orders.OrdersApi().create_order(data)
-        print(response.status_code, response.text)
         assert (response.status_code == 201 and
                 isinstance(response.json()["track"], int)), f'Невозможно создать заказ с цветом {test_color}!'
 
